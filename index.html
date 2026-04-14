@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base 3D - Impressões 3D</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="img/nav.jpeg" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo"><img src="img/logo.png" alt="Base 3D Logo" /></div>
+      <div class="menu">
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#orcamento">Orçamento</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Transformando Ideias em <span class="highlight">Realidade 3D</span></h1>
+        <p>
+          Tecnologia moderna para criação de peças detalhadas, protótipos e
+          soluções personalizadas com precisão e qualidade profissional.
+        </p>
+        <a href="#orcamento" class="btn primary">Solicitar Orçamento</a>
+      </div>
+
+      <div class="hero-images">
+        <div class="hero-img-card">
+          <img src="img/resina.png" alt="Impressão em Resina" />
+          <div class="caption">Impressão em Resina</div>
+        </div>
+        <div class="hero-img-card">
+          <img src="img/filamento.png" alt="Impressão em Filamento" />
+          <div class="caption">Impressão com Filamento</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <h2 class="section-title">Nossos Serviços</h2>
+      <div class="cards-container">
+        <div class="card-bg prototipo">
+          <div class="card-content">
+            <h3>Prototipagem</h3>
+            <p class="card-tag">Industrial</p>
+            <div class="more-info">
+              <p>Transforme sua ideia em um protótipo funcional com testes de encaixe e forma.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg pecas">
+          <div class="card-content">
+            <h3>Peças Personalizadas</h3>
+            <p class="card-tag">Exclusividade</p>
+            <div class="more-info">
+              <p>Componentes específicos para reposição industrial ou colecionáveis exclusivos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg modelagem">
+          <div class="card-content">
+            <h3>Modelagem 3D</h3>
+            <p class="card-tag">Design</p>
+            <div class="more-info">
+              <p>Conversão de desenhos 2D para 3D e otimização de malhas para impressão.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg escala">
+          <div class="card-content">
+            <h3>Produção em Escala</h3>
+            <p class="card-tag">Eficiência</p>
+            <div class="more-info">
+              <p>Lotes de pequena e média escala com repetibilidade e controle de qualidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <h2 class="section-title">Portfólio</h2>
+      <div class="portfolio-container">
+        <aside class="sidebar">
+          <ul class="category-menu">
+            <li class="menu-item active">
+              <button class="cat-btn">
+                <span class="btn-text">Acessórios para Pets</span>
+                <span class="chevron"></span>
+              </button>
+              <ul class="sub-menu">
+                <li><a href="#" class="filter-btn" data-target="pets">Utensílios Pets</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item">
+              <button class="cat-btn">
+                <span class="btn-text">Personagens</span>
+                <span class="chevron"></span>
+              </button>
+              <ul class="sub-menu">
+                <li><a href="#" class="filter-btn" data-target="marvel">Marvel & DC</a></li>
+                <li><a href="#" class="filter-btn" data-target="games">Games</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item">
+              <button class="cat-btn">
+                <span class="btn-text">Utensílios</span>
+                <span class="chevron"></span>
+              </button>
+              <ul class="sub-menu">
+                <li><a href="#" class="filter-btn" data-target="decoracao">Decoração</a></li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+
+        <div class="gallery-wrapper">
+          <div class="gallery">
+            <img src="img/ironman.jpeg" data-category="marvel" alt="Iron Man" />
+            <img src="img/batman busto.jpg" data-category="marvel" alt="Busto Batman" />
+            <img src="img/quadro batman.jpg" data-category="marvel" alt="Quadro Batman" />
+            <img src="img/thanos.jpg" data-category="marvel" alt="Thanos" />
+            <img src="img/simbolo aranha.jpg" data-category="marvel" alt="Homem Aranha" />
+            <img src="img/white.jpeg" data-category="marvel" alt="Dr. White" />
+
+            <img src="img/mario.jpeg" data-category="games" alt="Mario" />
+            <img src="img/cubo mario.jpg" data-category="games" alt="Cubo Mario" />
+            <img src="img/flor mario.jpg" data-category="games" alt="Flor Mario" />
+            <img src="img/call.jpeg" data-category="games" alt="Call of Duty" />
+            <img src="img/last of us.jpg" data-category="games" alt="Last of Us" />
+            <img src="img/zumbi last of us.jpg" data-category="games" alt="Zumbi Joel/Ellie" />
+            <img src="img/pokemon planta.jpg" data-category="games" alt="Bulbasaur Vasinho" />
+            <img src="img/chaveiro pockemon.jpg" data-category="games" alt="Chaveiro Pokemon" />
+            <img src="img/robo fallout.jpg" data-category="games" alt="Robô Fallout" />
+            <img src="img/robo.jpg" data-category="games" alt="Robô" />
+
+            <img src="img/decoracao dinosauro.jpg" data-category="decoracao" alt="Dinossauro Decor" />
+            <img src="img/letreiro pesoal.jpg" data-category="decoracao" alt="Letreiro Personalizado" />
+            <img src="img/porta coisas.jpg" data-category="decoracao" alt="Porta Objetos" />
+            <img src="img/suporte copos.jpg" data-category="decoracao" alt="Suporte para Copos" />
+            <img src="img/utencilios casa.jpg" data-category="decoracao" alt="Utensílios Domésticos" />
+
+            <img src="img/aquario.jpg" data-category="pets" alt="Aquário Decor" />
+            <img src="img/barc aquario.jpg" data-category="pets" alt="Barco Aquário" />
+            <img src="img/casinha hamster.jpg" data-category="pets" alt="Casinha Hamster" />
+            <img src="img/colherPet.jpg" data-category="pets" alt="Colher Ração" />
+          </div>
+
+          <div class="pagination">
+            <button id="prevPage" class="btn-pag">Anterior</button>
+            <span id="pageIndicator">Página 1</span>
+            <button id="nextPage" class="btn-pag">Próximo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="orcamento">
+      <div class="form-container">
+        <h2 class="section-title">Solicitar Orçamento</h2>
+        <form class="form">
+          <input type="text" placeholder="Seu Nome" required />
+          <input type="email" placeholder="Seu melhor E-mail" required />
+          <textarea rows="5" placeholder="Descreva seu projeto (dimensões, material, uso...)" required></textarea>
+          <button type="submit" class="btn primary">Enviar Pedido</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>BASE 3D © 2026 | Tecnologia em Impressão 3D</p>
+      <span>Resina • Filamento • Modelagem</span>
+    </footer>
+
+    <script>
+      // Accordion da Sidebar
+      const buttons = document.querySelectorAll(".cat-btn");
+      buttons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          const item = btn.parentElement;
+          document.querySelectorAll(".menu-item").forEach(el => {
+            if (el !== item) el.classList.remove("active");
+          });
+          item.classList.toggle("active");
+        });
+      });
+
+      // Sistema de Filtro e Paginação
+      const itemsPerPage = 4;
+      let currentPage = 1;
+      let currentCategory = "all";
+
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const galleryItems = document.querySelectorAll(".gallery img");
+      const prevBtn = document.getElementById("prevPage");
+      const nextBtn = document.getElementById("nextPage");
+      const pageIndicator = document.getElementById("pageIndicator");
+
+      function updateGallery() {
+        const filteredItems = Array.from(galleryItems).filter(item => {
+          const itemCat = item.getAttribute("data-category");
+          return currentCategory === "all" || itemCat === currentCategory;
+        });
+
+        const totalPages = Math.ceil(filteredItems.length / itemsPerPage) || 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+
+        const start = (currentPage - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+
+        galleryItems.forEach(item => item.classList.add("hide"));
+
+        filteredItems.forEach((item, index) => {
+          if (index >= start && index < end) {
+            item.classList.remove("hide");
+          }
+        });
+
+        pageIndicator.innerText = `Página ${currentPage} de ${totalPages}`;
+        prevBtn.disabled = currentPage === 1;
+        nextBtn.disabled = currentPage === totalPages;
+      }
+
+      filterButtons.forEach(button => {
+        button.addEventListener("click", (e) => {
+          e.preventDefault();
+          currentCategory = button.getAttribute("data-target");
+          currentPage = 1;
+          updateGallery();
+        });
+      });
+
+      prevBtn.addEventListener("click", () => {
+        if (currentPage > 1) {
+          currentPage--;
+          updateGallery();
+          document.getElementById('portfolio').scrollIntoView();
+        }
+      });
+
+      nextBtn.addEventListener("click", () => {
+        const filteredItems = Array.from(galleryItems).filter(item => {
+          return currentCategory === "all" || item.getAttribute("data-category") === currentCategory;
+        });
+        if (currentPage < Math.ceil(filteredItems.length / itemsPerPage)) {
+          currentPage++;
+          updateGallery();
+          document.getElementById('portfolio').scrollIntoView();
+        }
+      });
+
+      updateGallery();
+
+      document.querySelector('.form').addEventListener('submit', function(e) {
+    e.preventDefault(); // Impede o envio padrão do formulário
+
+    // Pega os valores dos campos
+    const nome = this.querySelectorAll('input')[0].value;
+    const email = this.querySelectorAll('input')[1].value;
+    const mensagem = this.querySelector('textarea').value;
+    
+    // Seu número de telefone (com DDD e sem espaços/traços)
+    const telefone = "556198070639"; 
+
+    // Monta a mensagem para o WhatsApp
+    const texto = `Olá Base 3D! Gostaria de um orçamento:%0A%0A` +
+                  `*Nome:* ${nome}%0A` +
+                  `*E-mail:* ${email}%0A` +
+                  `*Projeto:* ${mensagem}`;
+
+    // Redireciona para o link do WhatsApp
+    window.open(`https://api.whatsapp.com/send?phone=${telefone}&text=${texto}`, '_blank');
+});
+    </script>
+  </body>
+</html>
